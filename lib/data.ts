@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { LuFlaskConical} from "react-icons/lu";
 import gap from "@/public/gap.png";
 import apiwp from "@/public/wpapi.png";
 import wpadmin from "@/public/webadmin.png";
@@ -40,7 +40,7 @@ export const experiencesData = [
     location: "Corporación Universitaria Comfacauca",
     description:
       "Integration, black-box, and white-box testing were implemented for the coffee export software within the Colombia Innova (Colinova) project, aimed at enhancing its operation and ensuring its efficiency. These tests span from validating the system as a whole to scrutinizing its internal structure, thus ensuring software quality and reliability across all dimensions",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(LuFlaskConical),
     date: "December 2021 - February 2022",	
   },
   {
