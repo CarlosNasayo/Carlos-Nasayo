@@ -36,28 +36,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Testing",
+    location: "Corporación Universitaria Comfacauca",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Integration, black-box, and white-box testing were implemented for the coffee export software within the Colombia Innova (Colinova) project, aimed at enhancing its operation and ensuring its efficiency. These tests span from validating the system as a whole to scrutinizing its internal structure, thus ensuring software quality and reliability across all dimensions",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "December 2021 - February 2022",	
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Professional Practice ",
+    location: "Centro Internacional de Agricultura Tropical (CIAT)",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Support was provided in developing forms for data capture utilizing ODK (Open Data Kit). Additionally, requirements were gathered and a software architecture was developed for a progressive web application aimed at visualizing soil moisture data. Subsequently, a progressive web application for visualizing soil moisture data was developed.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "April 2022 - October 2022",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Centro Internacional de Agricultura Tropical (CIAT)",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Frontend development was done for a gap analysis application to aid genetic material collection. A new module was added to an existing chatbot for coffee yield estimates. Continuous delivery practices were implemented across projects, alongside documentation support. Backend development, ETL, and user management were handled for a water point monitoring platform in Ethiopia.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "October 2022 - present",
   },
 ] as const;
 
@@ -72,7 +72,7 @@ export const projectsData = [
   {
     title: "Waterpoints API",
     description:
-      "I have developed the bakend for a water point monitoring tool in ethiopia, this api consists of certain endpoints to provide the monitored data, historical data and profiles of the water points, among others.",
+      "I have developed the bakend for a water point monitoring tool in ethiopia, this api consists of certain endpoints to provide the monitored data, historical data and profiles of the water points.",
     tags: ["Flask", "Python", "MongoDB", "Pandas","Swagger"],
     imageUrl: apiwp,
   },
@@ -95,14 +95,11 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
   "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "Flask",
+  "Docker",
+  "CI/CD",
+  "Geoserver"
 ] as const;
